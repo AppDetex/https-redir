@@ -13,4 +13,4 @@ RUN apt-get update && \
 	rm -rf /var/lib/apt/lists/*
 
 ADD lighttpd.conf /etc/lighttpd/
-CMD ["lighttpd", "-D", "-f", "/etc/lighttpd/lighttpd.conf"
+CMD ["lighttpd", "-D", "-f", "/etc/lighttpd/lighttpd.conf"]
